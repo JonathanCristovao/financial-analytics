@@ -9,7 +9,7 @@ Financial_Repository
 │
 ├── Credit_Cards
 │   ├── Spending_Analysis
-│   ├── Delinquency_Prediction
+│   ├── Credit_models
 │   └── Fraud_Detection
 │
 ├── CRM
@@ -28,6 +28,6 @@ Financial_Repository
 │   └── Anti-Money_Laundering_Prevention
 │
 └── Others
-    ├── Investment_Forecasting
-    ├── Credit_Analysis
+    ├── Fintech
+    ├── Economy_and_Public_Policiesy
     └── Financial_Modeling
