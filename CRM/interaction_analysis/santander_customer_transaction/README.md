@@ -1,5 +1,5 @@
-# Santander-Customer-Transaction-Prediction
-Santander Customer Transaction Predict with Machine Learning models in Python.
+# Santander customer transaction prediction
+O objetivo dessa analise é dentificar quais clientes farão uma transação específica no futuro, independentemente da quantidade de dinheiro transacionada. 
 
 [More info](https://www.kaggle.com/competitions/santander-customer-transaction-prediction/overview)
 
@@ -7,7 +7,7 @@ Santander Customer Transaction Predict with Machine Learning models in Python.
 
 
 
-## Segue os modelos de machine learning utilizados neste notebook e os respectivos resultados da acurácia após o treinamento:
+## Modelos de machine learning utilizados e seus respectivos resultados da acurácia após o treinamento:
 * GradientBoostingClassifier -> 67%
 * RandomForestClassifier -> 74%
 * KNeighborsClassifier -> 67%
