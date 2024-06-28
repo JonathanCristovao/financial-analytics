@@ -10,4 +10,8 @@ matplotlib
 keras
 scikit-learn
 yfinance 
+keras
+tensorflow
+scikit-learn
+plotly
 -e .
