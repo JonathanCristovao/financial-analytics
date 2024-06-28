@@ -3,4 +3,11 @@ flake8
 isort
 pip
 python-dotenv
+numpy
+pandas
+seaborn
+matplotlib
+keras
+scikit-learn
+yfinance 
 -e .
