@@ -26,10 +26,20 @@ Fraud_Analysis
 ------------
 
 
-<a href="#"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#"><img align="right" width="35" height="35" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<table width="100%"><tr align="center"><td valign="top" width="33.3%"><br><a href="https://github.com/JonathanCristovao/financial-analytics/tree/main/Fraud_analysis/transaction_fraud_detection"><img width="256" height="144" src="transaction_fraud_detection\demo_app_fraud_transaction.gif"></a><a><h3><a>Credit Card Transactions</a></h3><p><a href="https://github.com/JonathanCristovao/financial-analytics/tree/main/Fraud_analysis/transaction_fraud_detection">Code</a></p><p>A web application to detect fraud in credit card transactions with machine learning</p><p><sup>by <a href="https://github.com/JonathanCristovao">@JonathanCristovao</a></sup></p></td><td valign="top" width="33.3%"><br></table>
-<br>
+
+<table>
+  <tr>
+    <td width="20%">
+        Credit Card Transactions</a></h3><p><a href="https://github.com/JonathanCristovao/financial-analytics/tree/main/Fraud_analysis/transaction_fraud_detection">Code</a></p><p>A web application designed to identify fraudulent activity in credit card transactions using machine learning techniques.</p><p><sup>by <a href="https://github.com/JonathanCristovao">@JonathanCristovao</a></sup></p>
+    </td>
+    <td width="70%">
+        <a href="https://github.com/JonathanCristovao/financial-analytics/tree/main/Fraud_analysis/transaction_fraud_detection"><img #width="656" height="344" src="transaction_fraud_detection\demo_app_fraud_transaction.gif"></a>
+    </td>
+  </tr>
+</table>
+
 
 ------------
 
