@@ -40,5 +40,7 @@ class PredictionController:
         plot_instance.plot_predictions(predictions, future_predictions)
 
     def run(self):
+        st.write("--------------------------------------------")
+        st.write(f'<div style="font-size:50px">🤖 Real-Time Stock Prediction', unsafe_allow_html=True)
         self.load_data()
         self.train_model()

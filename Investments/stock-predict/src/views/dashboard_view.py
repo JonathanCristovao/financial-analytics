@@ -7,7 +7,7 @@ class DashboardView:
     def __init__(self):
         self.data_model = StockData()
         self.tickers = ['NVDA', 'AAPL', 'GOOGL', 'MSFT', 'AMZN']
-        self.period_map = {'1m': '1mo', '6m': '6mo', 'YTD': 'ytd', '1y': '1y', 'all': 'max'}
+        self.period_map = { 'all': 'max','1m': '1mo', '6m': '6mo', 'YTD': 'ytd', '1y': '1y'}
 
     def render_sidebar(self):
         st.sidebar.header("Choose your filter:")
@@ -23,7 +23,7 @@ class DashboardView:
     def display_header(self):
         company_name = self.yf_data.info['shortName']
         symbol = self.yf_data.info['symbol']
-        st.subheader(f'{company_name} ({symbol})')
+        st.subheader(f'{company_name} ({symbol}) 💰')
         st.divider()
         if self.current_price != 'N/A' and self.previous_close != 'N/A':
             price_change = self.current_price - self.previous_close
@@ -40,6 +40,7 @@ class DashboardView:
         chart.render_chart()
 
     def run(self):
+        st.write("--------------------------------------------")
         self.render_sidebar()
         self.load_data()
         self.display_header()
